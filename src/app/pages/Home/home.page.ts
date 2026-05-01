@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +6,4 @@ import { Component, signal } from '@angular/core';
   templateUrl: './home.page.html',
 })
 export class HomePage {
-  protected readonly title = signal('portfolioV2');
 }
