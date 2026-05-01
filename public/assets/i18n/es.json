@@ -1,0 +1,15 @@
+{
+  "header": {
+    "projects": "Proyectos",
+    "experiences": "Experiencias"
+  },
+  "home": {
+    "title": "Come. Duerme. Programa. Repite.",
+    "subtitle": "SAMUEL DEMON - DESARROLLADOR FULL STACK",
+    "description": "Estudiante de tercer año de Grado en Informática en la Universidad de Lille (itinerario reforzado de investigación), me apasiona el desarrollo Full Stack y los desafíos técnicos. Con una base sólida en programación orientada a objetos (Java) y desarrollo web (React, Node.js), combino el rigor académico con proyectos personales concretos, como la creación de un blog de cine o un motor de juego. Actualmente busco una oportunidad de prácticas a partir de abril de 2026 para poner mis competencias al servicio de proyectos innovadores.",
+    "cv-button": "Ver mi CV",
+    "contact-button": "Contactar conmigo",
+    "about-me": "SOBRE MI",
+    "my-skills": "MIS HABILIDADES"
+  }
+}

@@ -1,11 +1,11 @@
-<div class="container h-[calc(100vh-3.5rem)] mt-50 flex justify-center">
+<div class="container mt-25 flex justify-center text-xl">
 
   <div class="flex flex-col w-fit gap-5">
 
-    <div class="flex flex-col justify-center items-center max-w-lg gap-3">
-      <h1 class="text-3xl font-bold">TITRE</h1>
-      <span class="font-grey">Samuel DEMON - Développeur full-stack</span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="flex flex-col justify-center items-center max-w-200 gap-3">
+      <h1 class="text-3xl font-bold">{{ 'home.title' | translate }}</h1>
+      <span class="text-muted-foreground font-semibold">{{ 'home.subtitle' | translate }}</span>
+      <p>{{ 'home.description' | translate }}</p>
     </div>
 
     <div class="flex items-center gap-2">
@@ -14,14 +14,14 @@
         [routerLink]="''"
         variant="default"
         class="font-bold">
-        Voir mon CV
+        {{ 'home.cv-button' | translate }}
       </button>
       <button
         hlmBtn
         [routerLink]="'contact'"
         variant="outline"
         class="font-bold">
-        Me contacter
+        {{ 'home.contact-button' | translate }}
         <svg lucideSend size="20"></svg>
       </button>
     </div>
@@ -29,5 +29,88 @@
 
 
 </div>
-<app-wip />
 
+<!-- >DIV MES SKILLS<!-->
+<div class="container mt-25 flex justify-center text-xl mb-10">
+
+  <div class="flex flex-col gap-5">
+
+    <div class="flex flex-col justify-center items-center gap-3">
+      <h1 class="text-3xl font-bold">{{ 'home.my-skills' | translate }}</h1>
+    </div>
+
+    <div class="overflow-hidden w-full">
+      <div class="animate-scroll gap-4">
+        <img src="assets/svg/typescript.svg" class="w-20 h-20">
+        <img src="assets/svg/tailwind.svg" class="w-20 h-20">
+        <img src="assets/svg/angular.svg" class="w-20 h-20">
+        <img src="assets/svg/java.svg" class="w-20 h-20">
+        <img src="assets/svg/spring.svg" class="w-20 h-20">
+        <img src="assets/svg/flutter.svg" class="w-20 h-20">
+        <img src="assets/svg/linux.svg" class="w-20 h-20">
+        <img src="assets/svg/react.svg" class="w-20 h-20">
+        <img src="assets/svg/js.svg" class="w-20 h-20">
+        <img src="assets/svg/express.svg" class="w-20 h-20">
+        <!-- >copie<!-->
+        <img src="assets/svg/typescript.svg" class="w-20 h-20">
+        <img src="assets/svg/tailwind.svg" class="w-20 h-20">
+        <img src="assets/svg/angular.svg" class="w-20 h-20">
+        <img src="assets/svg/java.svg" class="w-20 h-20">
+        <img src="assets/svg/spring.svg" class="w-20 h-20">
+        <img src="assets/svg/flutter.svg" class="w-20 h-20">
+        <img src="assets/svg/linux.svg" class="w-20 h-20">
+        <img src="assets/svg/react.svg" class="w-20 h-20">
+        <img src="assets/svg/js.svg" class="w-20 h-20">
+        <img src="assets/svg/express.svg" class="w-20 h-20">
+      </div>
+    </div>
+
+    <div class="overflow-hidden w-full">
+      <div class="animate-scroll-reverse gap-4">
+        <img src="assets/svg/typescript.svg" class="w-20 h-20">
+        <img src="assets/svg/tailwind.svg" class="w-20 h-20">
+        <img src="assets/svg/angular.svg" class="w-20 h-20">
+        <img src="assets/svg/java.svg" class="w-20 h-20">
+        <img src="assets/svg/spring.svg" class="w-20 h-20">
+        <img src="assets/svg/flutter.svg" class="w-20 h-20">
+        <img src="assets/svg/linux.svg" class="w-20 h-20">
+        <img src="assets/svg/react.svg" class="w-20 h-20">
+        <img src="assets/svg/js.svg" class="w-20 h-20">
+        <img src="assets/svg/express.svg" class="w-20 h-20">
+        <!-- >copie<!-->
+        <img src="assets/svg/typescript.svg" class="w-20 h-20">
+        <img src="assets/svg/tailwind.svg" class="w-20 h-20">
+        <img src="assets/svg/angular.svg" class="w-20 h-20">
+        <img src="assets/svg/java.svg" class="w-20 h-20">
+        <img src="assets/svg/spring.svg" class="w-20 h-20">
+        <img src="assets/svg/flutter.svg" class="w-20 h-20">
+        <img src="assets/svg/linux.svg" class="w-20 h-20">
+        <img src="assets/svg/react.svg" class="w-20 h-20">
+        <img src="assets/svg/js.svg" class="w-20 h-20">
+        <img src="assets/svg/express.svg" class="w-20 h-20">
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+<div class="container mt-25 flex justify-center text-xl">
+
+  <!-- >DIV image et about<!-->
+  <div class="flex w-fit gap-10 items-center max-w-200">
+
+    <!-- >DIV image<!-->
+    <div class="max-w-100 max-h-100">
+      <img
+        class="object-cover rounded-full"
+        src="assets/images/pictureofme.png"
+        alt="Profile picture" />
+    </div>
+    <!-- >DIV about<!-->
+    <div>
+      <h1 class="font-bold">{{ 'home.about-me' | translate }}</h1>
+      <p>{{ 'home.description' | translate }}</p>
+    </div>
+  </div>
+</div>
