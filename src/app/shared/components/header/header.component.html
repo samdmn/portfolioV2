@@ -11,11 +11,16 @@
     </button>
     <button
       hlmBtn
-      [routerLink]=""
+      [routerLink]="'projects'"
       variant="mainHeaderButton">
       Projets
     </button>
-    <button hlmBtn [routerLink]="" variant="mainHeaderButton">Expériences</button>
+    <button
+      hlmBtn
+      [routerLink]="'experiences'"
+      variant="mainHeaderButton">
+      Expériences
+    </button>
   </div>
 
   <button
@@ -62,7 +67,7 @@
     </button>
     <button
       hlmBtn
-      [routerLink]=""
+      [routerLink]="''"
       variant="mainHeaderButton"
       class="font-bold w-full justify-start"
       (click)="toggleSidebar()">
@@ -71,7 +76,7 @@
     </button>
     <button
       hlmBtn
-      [routerLink]=""
+      [routerLink]="'projects'"
       variant="mainHeaderButton"
       class="w-full justify-start"
       (click)="toggleSidebar()">
@@ -79,7 +84,7 @@
     </button>
     <button
       hlmBtn
-      [routerLink]=""
+      [routerLink]="'experiences'"
       variant="mainHeaderButton"
       class="w-full justify-start"
       (click)="toggleSidebar()">

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { WipComponent } from '../../shared/components/wip/wip.component';
 
 @Component({
   selector: 'app-experiences',
-  imports: [],
+  imports: [WipComponent],
   templateUrl: './experiences.page.html',
 })
 export class ExperiencesPage {}
