@@ -5,9 +5,9 @@
   },
   "home": {
     "title": "EAT. SLEEP. CODE. REPEAT.",
-    "subtitle": "SAMUEL DEMON - FULL STACK DEVELOPER",
+    "subtitle": "SAMUEL DEMON - SOFTWARE ENGINEERING STUDENT",
     "description" : "As a third-year Computer Science student at the University of Lille (research-intensive track), I am passionate about Full Stack development and technical challenges. With a solid foundation in object-oriented programming (Java) and web development (React, Node.js), I combine academic rigor with hands-on personal projects, such as creating a film blog or a game engine. I am currently seeking an internship opportunity starting in April 2026 to apply my skills to innovative projects.",
-    "cv-button" : "Visualize my CV",
+    "cv-button" : "Visualize my resume",
     "contact-button" : "Contact me",
     "about-me" : "ABOUT ME",
     "my-skills" : "TECH STACK I USE"
